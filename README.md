@@ -1,15 +1,12 @@
 # Lorenz Attractor
 A short notebook for solving the [Lorenz System](https://en.wikipedia.org/wiki/Lorenz_system) of differential equations:
-$$
-\\displaystyle
-\\frac{\\mathrm{d}x}{\\mathrm{d}t} = \\sigma(y - x), \\qquad{}
-\\frac{\\mathrm{d}y}{\\mathrm{d}t} = x(\\rho - z) - y, \\qquad{}
-\\frac{\\mathrm{d}z}{\\mathrm{d}t} = xy - \\beta z
-$$
+    dx/dt = σ(y - x)
+    dy/dt = ρx - y - xz
+    dz/dt = xy - βz
 and making plots of a stream-line.
 
 ## How to use
-Just hit run! If youd like you can change the constants from the default values of $\sigma=10$, $\rho=28$, and $\beta=8/3$, and also the initial values of $x$, $y$, $z$.
+Just hit run! If youd like you can change the constants from the default values of σ=10, ρ=28, and β=8/3, and also the initial values of x, y, z.
 
 ## Images
 ### Projected onto the x-y plane.
