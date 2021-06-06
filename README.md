@@ -1,8 +1,8 @@
 # Lorenz Attractor
 A short notebook for solving the [Lorenz System](https://en.wikipedia.org/wiki/Lorenz_system) of differential equations:
-    dx/dt = σ(y - x)
-    dy/dt = ρx - y - xz
-    dz/dt = xy - βz
+    dx/dt = σ(y - x)  
+    dy/dt = ρx - y - xz  
+    dz/dt = xy - βz  
 and making plots of a stream-line.
 
 ## How to use
